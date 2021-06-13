@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="style.css">
+
+<a href="index.html" title="main page">index</a>
+
+<div class="draggable">
+    <form action="" id="tasks">
+        <strong class="handle">MOVE ME</strong>
+        <input type="text" name='name' placeholder="fullname" title="Type your firstname and lastname" >
+        <button type="submit">submit</button>
+        <div class="task_list" style="display:flex; flex-direction:column;"></div>
+    </form>
+
+    <a href="#" class="add-task">add</a>
+    <div class="template todo">
+        <span>move </span>
+        <input type="text" name="todo[]">
+    </div>
+</div>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="script.js"></script>
